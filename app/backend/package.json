@@ -1,0 +1,14 @@
+{
+  "name": "products-api",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "API de produtos (mock) - endpoint de listagem",
+  "scripts": {
+    "dev": "node --watch ./src/server.js",
+    "start": "node ./src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
